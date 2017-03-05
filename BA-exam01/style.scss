@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Raleway:700');
+
+html,body {
+  font-family: Lato, Raleway, Arial sans-serif;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font: 700 35px/1.7 Raleway, sans-serif;
+  text-transform: uppercase;
+}
+p {
+  padding: 0;
+}
+.container {
+  max-width: 1600px;
+  box-sizing: border-box;
+  padding: 0 215px;
+}
+.clearfix {
+  clear: both;
+}
+.hd {
+  &-container {
+    background: url("img/bg1-HERO.jpg") 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding-top: 49px;
+    color: #fff;
+    position: relative;
+  }
+  &-nav {
+    //display: inline-block;
+  }
+  &-logo {
+    float: left;
+    &:hover {
+      opacity: 0.5;
+
+    }
+  }
+  &-menu-list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    width: 35%;
+    display: inline-block;
+    float: right;
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  &-menu-item {
+    display: inline-block;
+    width: 19%;
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+  &-title {
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 235px;
+
+    &:after {
+      display: block;
+      content: '';
+      width: 90px;
+      height: 2px;
+      background: #fff;
+      margin: 50px auto;
+    }
+  }
+  &-text {
+    font: 400 22px/1.3 Raleway, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 248px;
+  }
+  &-scroll {
+    position: absolute;
+    left: 45%;
+    bottom: 44px;
+    &.cls-1 {
+      position: absolute;
+      left: 50%;
+      display: inline-block;
+      fill: #fff;
+      fill-rule: evenodd;
+      opacity: 0.5;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+.services {
+  &-title {
+    color: #222;
+    text-align: center;
+    &:after {
+      display: block;
+      content: '';
+      width: 90px;
+      height: 2px;
+      background: #222;
+      margin: 50px auto;
+    }
+
+  }
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    //max-width: 1170px;
+    //display: inline-block;
+    //columns: 3 320px;
+
+  }
+  &-item{
+    flex: 20% 1 1;
+    text-align: center;
+    //margin-right: 5%;
+    //width: 20%;
+    }
+  &-sub-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  &-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+}
+.dolore {
+  background: url("img/bg-section3.jpg") 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  padding: 0;
+  color: #fff;
+  &-section {
+    background-color: rgba(34, 34, 34, 0.7);
+    width:100%;
+    height:100%;
+    padding: 0 215px;
+  }
+  &-left {
+    display: inline-block;
+    float: left;
+    width: 36%;
+  }
+  &-title {
+    font: 400 45/1.5 Lato, sans-serif;
+
+  }
+  &-text {
+
+
+  }
+  & a {
+
+  }
+  &-right {
+    display: inline;
+    position: absolute;
+    float: right;
+    bottom: 0;
+
+  }
+}
+
